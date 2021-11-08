@@ -26,12 +26,12 @@ func init(_body_to_move: KinematicBody):
 func set_move_vec(_move_vec: Vector3):
 	move_vec = _move_vec.normalized()
 
-func _physics_process(delta):
-	if frozen:
-		return
-	var cur_move_vec = move_vec
-	if !ignore_rotation:
-		cur_move_vec = cur_move_vec.rotated(Vector3.UP,
-				body_to_move.rotation.y)
-	velocity += move_accel * cur_move_vec - velocity * Vector3(drag, 0,
-			drag) + gravity * Vector3.DOWN * delta
+# func _physics_process(delta):
+# 	if frozen:
+# 		return
+# 	var cur_move_vec = move_vec
+# 	if !ignore_rotation:
+# 		cur_move_vec = cur_move_vec.rotated(Vector3.UP,
+# 				body_to_move.rotation.y)
+# 	velocity += move_accel * cur_move_vec - velocity * Vector3(drag, 0,
+# 			drag) + gravity * Vector3.DOWN * delta
