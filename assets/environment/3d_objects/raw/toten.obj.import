@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/toten.obj-91fb5411bbb61c0bcb895f072f8a07d9.mesh"
+
+[deps]
+
+files=[ "res://.import/toten.obj-91fb5411bbb61c0bcb895f072f8a07d9.mesh" ]
+
+source_file="res://assets/environment/3d_objects/raw/toten.obj"
+dest_files=[ "res://.import/toten.obj-91fb5411bbb61c0bcb895f072f8a07d9.mesh", "res://.import/toten.obj-91fb5411bbb61c0bcb895f072f8a07d9.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
